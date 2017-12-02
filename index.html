@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>StreetComplete QuestCreator</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="css/iconfont/material-icons.css">
+  <link rel="stylesheet" href="css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/materialize-0.100.2.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/icon.png">
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-wrapper indigo">
+        <div class="hide-on-med-and-down">
+          <a class="center brand-logo">StreetComplete QuestCreator</a>
+          <ul class="right">
+            <li><a class="clear-input"><i class="mdi mdi-delete-forever right"></i>Clear input</a></li>
+            <li><a class="modal-trigger" data-target="help"><i class="mdi mdi-help-circle right"></i>Help</a></li>
+          </ul>
+        </div>
+        <div class="hide-on-large-only">
+          <a class="center brand-logo">QuestCreator</a>
+          <ul class="right">
+            <li><a class="clear-input"><i class="mdi mdi-delete-forever"></i></a></li>
+            <li><a class="modal-trigger" data-target="help"><i class="mdi mdi-help-circle"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="progress">
+      <div class="indeterminate"></div>
+    </div>
+
+  </header>
+
+  <main>
+    <div id="content">
+
+      <div class="row">
+        <form class="col s12" id="form">
+
+          <div id="general">
+            <h5 class="center">General</h5>
+
+            <!-- The type of quest which should be generated -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-comment-question-outline prefix"></i>
+              <select id="type" name="type" required>
+                <option value="0" disabled selected>Choose your option</option>
+                <option value="1">Yes-No quest</option>
+                <option value="2">Quest with images (experimental)</option>
+            </select>
+              <label>Kind of the quest</label>
+            </div>
+
+            <!-- The importance of the quest -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-exclamation prefix"></i>
+              <select id="importance" name="importance" required>
+                <option value="0" disabled selected>Choose your option</option>
+                <option value="1" disabled>1. (Only used for notes)</option>
+                <option value="2">2. (Definitely shown as errors in QA tools)</option>
+                <option value="3">3. (Maybe shown as missing in QA tools)</option>
+                <option value="4">4. (Maybe shown as possibly missing in QA tools)</option>
+                <option value="5">5. (Important data that is used by many data consumers)</option>
+                <option value="6">6. (Useful data that is used by some data consumers)</option>
+                <option value="7">7. (Data useful for only a specific use case)</option>
+                <option value="8">8. (Defined in the wiki, but not really used by anyone yet.)</option>
+              </select>
+              <label>Importance of the quest</label>
+            </div>
+          </div>
+
+          <div id="quest" class="row">
+            <div class="divider"></div>
+
+            <h5 class="center">The quest</h5>
+            <!-- Directory -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-folder prefix"></i>
+              <input id="directory" type="text" name="directory" required>
+              <label for="directory">Name of the directory for the quest</label>
+            </div>
+
+            <!-- Question -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-help prefix"></i>
+              <input id="question" type="text" name="question" required>
+              <label for="question">Question</label>
+            </div>
+
+            <!-- Overpass query -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-magnify prefix"></i>
+              <input id="overpass" type="text" name="overpass" required>
+              <label for="overpass">Overpass query</label>
+            </div>
+
+            <!-- Modified OSM tag -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-tag prefix"></i>
+              <input id="osm-tag" type="text" name="osmtag" required>
+              <label for="osm-tag">OSM tag which should be modified</label>
+            </div>
+
+            <!-- Commit message -->
+            <div class="input-field col s12 m6">
+              <i class="mdi mdi-message prefix"></i>
+              <input id="commit" type="text" name="commit" required>
+              <label for="commit">Commit message</label>
+            </div>
+
+            <!-- Whether the quest should be shown without selecting it in the settings -->
+            <div class="switch col s12 m6 offset-s2">
+              Enabled by default<br>
+              <label>
+              Off
+              <input id="enabled" type="checkbox">
+              <span class="lever"></span>
+              On
+            </label>
+            </div>
+          </div>
+
+          <div id="quest-form" class="row">
+            <div class="divider"></div>
+
+            <h5 class="center">The quest form</h5>
+            <!-- Add new answer -->
+            <div class="col s12 m6 l4">
+              <a class="waves-effect waves-light btn-large indigo modal-trigger" data-target="add-new-answer"><i class="mdi mdi-plus left"></i>Add new answer</a>
+            </div>
+
+            <div id="preview-quest-form-images" class="col s12 m6 l8"></div>
+
+            <ul class="collapsible col s12">
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-chevron-down"></i>More options</div>
+                <div class="collapsible-body">
+                  <!-- Images per row -->
+                  <div class="input-field col s12 m6">
+                    <i class="mdi mdi-image prefix"></i>
+                    <input id="images-per-row" type="number" name="imagesPerRow">
+                    <label for="images-per-row">Images per row</label>
+                  </div>
+
+                  <!-- Maximum number of initially shown answers -->
+                  <div class="input-field col s12 m6">
+                    <i class="mdi mdi-format-list-numbers prefix"></i>
+                    <input id="initially-shown-answers" type="number" name="initiallyShownAnswers">
+                    <label for="initially-shown-answers">Initially shown answers</label>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Modal for adding a new answer -->
+            <div id="add-new-answer" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Add a new answer</h4>
+
+                <div class="row">
+                  <!-- The corresponding OSM value for this answer -->
+                  <div class="input-field col s12">
+                    <i class="mdi mdi-key prefix"></i>
+                    <input id="osm-value" type="text" name="osmValue" required>
+                    <label for="osm-value">OSM value which should be set for this answer</label>
+                  </div>
+
+                  <!-- The answer -->
+                  <div class="input-field col s12">
+                    <i class="mdi mdi-exclamation prefix"></i>
+                    <input id="answer" type="text" name="answer">
+                    <label for="answer">Answer</label>
+                  </div>
+
+                  <!-- Select an image -->
+                  <div class="file-field input-field col s12">
+                    <div class="btn indigo">
+                      <span><i class="mdi mdi-image left"></i>Select image</span>
+                      <input id="image-select" type="file" name="imageSelect" accept="image/*" required>
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path" type="text">
+                    </div>
+                  </div>
+
+                  <!-- Preview the selected image -->
+                  <div id="preview-image" class="col s12 center"></div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-close-button">Close</a>
+                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-button">Add</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="finish" class="row">
+            <div class="divider"></div>
+
+            <h5 class="col s12 center">Finish</h5>
+
+            <!-- Create the quest -->
+            <div class="col s12 center">
+              <button class="btn-large waves-effect waves-light indigo" type="submit">Create quest
+                <i class="mdi mdi-send right"></i>
+              </button>
+            </div>
+          </div>
+
+        </form>
+
+        <div id="after-creation" class="col s12 center">
+          <div class="divider"></div>
+          <h5>Congratulations! You created a new quest! What do you want to do now?</h5>
+          <span>&bull; <a class="download-zip"><u>Download</u></a> the files as a zip archive<br></span>
+          <span>&bull; You can even send the <a class="download-zip"><u>downloaded</u></a>
+            files to <a href="mailto:info.ent8r@gmail.com?Subject=New%20quest"><u>ENT8R</u></a>
+            who will implement the files for you! (But don't forget to attach the zip archive to the email!)
+          </span><br>
+          <span>&bull; <a id="create-new-quest" href="#"><u>Create a new quest</u></a></span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal for getting help -->
+    <div id="help" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Help</h4>
+
+        <div class="row">
+          <!-- Inform the user about what needs to be done before creating a quest -->
+          <p class="">Before creating a new quest you should:<br> &bull; Read this <a href="https://github.com/westnordost/StreetComplete/wiki/Adding-new-Quests-to-StreetComplete" target="_blank">guide</a> to know what is important for a new quest<br> &bull; Have
+            a look at this
+            <a href="https://wiki.openstreetmap.org/wiki/StreetComplete/Quests" target="_blank">list</a> where all quests are listed
+          </p><br>
+          <p>If you need help, don't hesitate to contact me: <a href="mailto:info.ent8r@gmail.com">info.ent8r@gmail.com</a></p>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <a class="modal-action modal-close waves-effect waves-indigo btn-flat">Close</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="page-footer indigo">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 s12">
+          <h5 class="white-text">StreetComplete QuestCreator</h5>
+          <p class="grey-text text-lighten-4">This tool can be used for creating new quests for the android application
+            <a href="https://github.com/westnordost/StreetComplete" target="_blank">StreetComplete</a><br> You can have a look at the source code of this website <a href="https://github.com/ENT8R/StreetCompleteQuestCreator">here</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright indigo darken-2">
+      <div class="container">
+        Made by <a href="https://github.com/ENT8R" target="_blank">ENT8R</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/jquery/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery/jquery.validate-1.17.0.min.js"></script>
+  <script src="js/mustache/mustache-2.3.0.min.js"></script>
+  <script src="js/jszip/jszip-3.1.5.min.js"></script>
+  <script src="js/materialize/materialize-0.100.2.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

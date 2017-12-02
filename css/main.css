@@ -1,0 +1,42 @@
+#after-creation, #quest, #quest-form, #finish, .progress {
+  display: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.waves-effect.waves-indigo .waves-ripple {
+  background-color: rgba(63, 81, 181, 0.65);
+}
+
+.image-container>img, #preview-image>img {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.text-container {
+  position: absolute;
+  left: 50%;
+}
+
+.text-bottom {
+  position: relative;
+  left: -50%;
+  bottom: 75px;
+  font-size: 1.2rem;
+  text-align: center;
+}
