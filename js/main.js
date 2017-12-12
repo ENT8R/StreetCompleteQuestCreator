@@ -47,7 +47,6 @@ $(document).ready(function() {
   $('.modal').modal({
     dismissible: false
   });
-  $('#enabled').prop('checked', true);
 
   $("select").css({
     display: "block",
@@ -132,7 +131,6 @@ function generateFiles() {
   let overpassQuery = $('#overpass').val();
   let osmTag = $('#osm-tag').val();
   let commitMessage = $('#commit').val();
-  let enabled = $('#enabled').is(':checked');
 
   let stringArray = stringValues.split('\n');
   stringArray.splice(stringArray.length - 2, 0, '    <string name="quest_' + directory + '_title">' + $('#question').val() + '</string>');
@@ -158,7 +156,6 @@ function generateFiles() {
         overpass: overpassQuery,
         osmTag: osmTag,
         commitMessage: commitMessage,
-        enabled: enabled,
         question: 'R.string.quest_' + directory + '_title'
       });
       //Add quest to the zip archive
@@ -195,7 +192,6 @@ function generateFiles() {
         overpass: overpassQuery,
         osmTag: osmTag,
         commitMessage: commitMessage,
-        enabled: enabled,
         question: 'R.string.quest_' + directory + '_title'
       });
       //Add quest to the zip archive
@@ -311,7 +307,6 @@ function clearInput() {
   $('#osm-tag').val('');
   $('#commit').val('');
   $('#question').val('');
-  $('#enabled').prop('checked', true);
 
   $('#images-per-row').val('');
   $('#initially-shown-answers').val('');
