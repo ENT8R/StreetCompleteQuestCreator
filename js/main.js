@@ -48,8 +48,8 @@ $(document).ready(function() {
     dismissible: false
   });
 
-  $("select").css({
-    display: "block",
+  $('select').css({
+    display: 'block',
     height: 0,
     padding: 0,
     width: 0,
@@ -96,11 +96,14 @@ $(document).ready(function() {
   $('#type').change(function() {
     $('#quest').fadeIn(500);
     $('#finish').fadeIn(500);
+
     switch ($('#type').val()) {
       case '1':
         $('#quest-form').hide();
+        $('#yes-no-more-options').show();
         break;
       case '2':
+        $('#yes-no-more-options').hide();
         $('#quest-form').fadeIn(500);
         break;
     }
@@ -125,12 +128,21 @@ function generateFiles() {
 
   const zip = new JSZip();
 
+  //Required values
   let importance = $('#importance').val();
   let directory = $('#directory').val();
   let className = getClassNameFromDirectory(directory);
   let overpassQuery = $('#overpass').val();
   let osmTag = $('#osm-tag').val();
   let commitMessage = $('#commit').val();
+
+  //Non-required values for the Yes-No quest
+  let answerYes = $('#answer-yes').val();
+  let answerNo = $('#answer-no').val();
+
+  //Non-required values for the image quest form
+  let imagePerRow = $('#images-per-row').val();
+  let initiallyShownAnswers = $('#initially-shown-answers').val();
 
   let stringArray = stringValues.split('\n');
   stringArray.splice(stringArray.length - 2, 0, '    <string name="quest_' + directory + '_title">' + $('#question').val() + '</string>');
@@ -156,7 +168,9 @@ function generateFiles() {
         overpass: overpassQuery,
         osmTag: osmTag,
         commitMessage: commitMessage,
-        question: 'R.string.quest_' + directory + '_title'
+        question: 'R.string.quest_' + directory + '_title',
+        answerYes: answerYes || 'yes',
+        answerNo: answerNo || 'no'
       });
       //Add quest to the zip archive
       zip.file(baseDir.java + 'quests/' + directory + '/' + className + '.java', renderedYesNoQuest);
@@ -200,8 +214,8 @@ function generateFiles() {
       let renderedQuestForm = Mustache.render(imageQuestFormTemplate, {
         directory: directory,
         className: className,
-        itemsPerRow: $('#images-per-row').val(),
-        numberOfInitiallyShownItems: $('#initially-shown-answers').val(),
+        itemsPerRow: imagesPerRow,
+        numberOfInitiallyShownItems: initiallyShownAnswers,
         osmItem: osmItems
       });
       //Add quest form to the zip archive
@@ -307,6 +321,9 @@ function clearInput() {
   $('#osm-tag').val('');
   $('#commit').val('');
   $('#question').val('');
+
+  $('#answer-no').val('');
+  $('#answer-yes').val('');
 
   $('#images-per-row').val('');
   $('#initially-shown-answers').val('');

@@ -66,7 +66,7 @@
                 <option value="0" disabled selected>Choose your option</option>
                 <option value="1">Yes-No quest</option>
                 <option value="2">Quest with images (experimental)</option>
-            </select>
+              </select>
               <label>Kind of the quest</label>
             </div>
 
@@ -138,6 +138,30 @@
             </label>
             </div>
             -->
+
+            <div id="yes-no-more-options">
+              <ul class="collapsible col s12">
+                <li>
+                  <div class="collapsible-header"><i class="mdi mdi-chevron-down"></i>More options for the Yes-No quest (not required)</div>
+                  <div class="collapsible-body">
+                    <!-- OSM value for answer "Yes"-->
+                    <div class="input-field col s12 m6">
+                      <i class="mdi mdi-close prefix"></i>
+                      <input id="answer-yes" type="text" name="answerYes">
+                      <label for="answer-yes">OSM value for answer "Yes"</label>
+                    </div>
+
+                    <!-- OSM value for answer "No" -->
+                    <div class="input-field col s12 m6">
+                      <i class="mdi mdi-check prefix"></i>
+                      <input id="answer-no" type="text" name="answerNo">
+                      <label for="answer-no">OSM value for answer "No"</label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
           </div>
 
           <div id="quest-form" class="row">
@@ -153,7 +177,7 @@
 
             <ul class="collapsible col s12">
               <li>
-                <div class="collapsible-header"><i class="mdi mdi-chevron-down"></i>More options</div>
+                <div class="collapsible-header"><i class="mdi mdi-chevron-down"></i>More options for the quest form (not required)</div>
                 <div class="collapsible-body">
                   <!-- Images per row -->
                   <div class="input-field col s12 m6">

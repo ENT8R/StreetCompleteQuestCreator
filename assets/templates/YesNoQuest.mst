@@ -27,7 +27,7 @@ public class {{{className}}} extends SimpleOverpassQuestType
 
 	public void applyAnswerTo(Bundle answer, StringMapChangesBuilder changes)
 	{
-		String yesno = answer.getBoolean(YesNoQuestAnswerFragment.ANSWER) ? "yes" : "no";
+		String yesno = answer.getBoolean(YesNoQuestAnswerFragment.ANSWER) ? "{{{answerYes}}}" : "{{{answerNo}}}";
 		changes.add("{{{osmTag}}}", yesno);
 	}
 
