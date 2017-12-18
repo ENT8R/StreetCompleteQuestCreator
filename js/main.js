@@ -141,7 +141,7 @@ function generateFiles() {
   let answerNo = $('#answer-no').val();
 
   //Non-required values for the image quest form
-  let imagePerRow = $('#images-per-row').val();
+  let imagesPerRow = $('#images-per-row').val();
   let initiallyShownAnswers = $('#initially-shown-answers').val();
 
   let stringArray = stringValues.split('\n');
