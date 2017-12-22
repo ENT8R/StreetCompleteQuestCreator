@@ -14,7 +14,30 @@ public class {{{className}}}Form extends ImageListQuestAnswerFragment
             new OsmItem("{{{osmValue}}}", {{{image}}}{{#string}}, {{{string}}}{{/string}}),
             {{/osmItem}}
     };
+    {{#otherAnswers}}
 
+    @Override
+  	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+  	{
+  		View view = super.onCreateView(inflater, container, savedInstanceState);
+  		addOtherAnswers();
+  		return view;
+  	}
+
+  	private void addOtherAnswers()
+  	{
+      {{#otherAnswers}}
+      addOtherAnswer({{{string}}}, () -> applyAnswer("{{{osmValue}}}"));
+      {{/otherAnswers}}
+  	}
+
+  	private void applyAnswer(String value)
+  	{
+  		Bundle answer = new Bundle();
+  		answer.putString(OTHER_ANSWER, value);
+  		applyImmediateAnswer(answer);
+  	}
+    {{/otherAnswers}}
     @Override protected OsmItem[] getItems() { return TYPES; }
     {{#itemsPerRow}}
     @Override protected int getItemsPerRow() { return {{{itemsPerRow}}}; }

@@ -28,7 +28,13 @@ public class {{{className}}} extends SimpleOverpassQuestType
     public void applyAnswerTo(Bundle answer, StringMapChangesBuilder changes)
     {
         List<String> values = answer.getStringArrayList({{{className}}}Form.OSM_VALUES);
-        if(values != null  && values.size() == 1)
+        {{#otherAnswers}}
+        String other = answer.getString({{{className}}}Form.OTHER_ANSWER);
+        if (other != null)
+        {
+          changes.add("{{{osmTag}}}", other);
+        }
+        else {{/otherAnswers}}if(values != null  && values.size() == 1)
         {
             changes.add("{{{osmTag}}}", values.get(0));
         }

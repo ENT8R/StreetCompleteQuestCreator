@@ -192,6 +192,12 @@
                     <input id="initially-shown-answers" type="number" name="initiallyShownAnswers">
                     <label for="initially-shown-answers">Initially shown answers</label>
                   </div>
+
+                  <div class="col s12 m6">
+                    <a class="waves-effect waves-light btn-large indigo modal-trigger" data-target="add-other-answer"><i class="mdi mdi-plus left"></i>Add other answer</a>
+                  </div>
+
+                  <ul class="col s12 m6" id="other-answers-list"></ul>
                 </div>
               </li>
             </ul>
@@ -235,6 +241,34 @@
               <div class="modal-footer">
                 <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-close-button">Close</a>
                 <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-button">Add</a>
+              </div>
+            </div>
+
+            <!-- Modal for adding an other answer -->
+            <div id="add-other-answer" class="modal">
+              <div class="modal-content">
+                <h4>Add other answer</h4>
+
+                <div class="row">
+                  <!-- An other answer (hidden in a submenu) -->
+                  <div class="input-field col s12">
+                    <i class="mdi mdi-plus-circle prefix"></i>
+                    <input id="other-answer" type="text" name="otherAnswer">
+                    <label for="other-answer">Other answer</label>
+                  </div>
+
+                  <!-- The OSM value for the other answer -->
+                  <div class="input-field col s12">
+                    <i class="mdi mdi-exclamation prefix"></i>
+                    <input id="other-answer-value" type="text" name="otherAnswerValue">
+                    <label for="other-answer-value">OSM values for this answer</label>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-other-answer-close-button">Close</a>
+                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-other-answer-button">Add</a>
               </div>
             </div>
           </div>
@@ -314,6 +348,8 @@
   <script src="js/mustache/mustache-2.3.0.min.js"></script>
   <script src="js/jszip/jszip-3.1.5.min.js"></script>
   <script src="js/materialize/materialize-0.100.2.min.js"></script>
+
+  <script src="js/helper.js"></script>
   <script src="js/main.js"></script>
 
 </body>
