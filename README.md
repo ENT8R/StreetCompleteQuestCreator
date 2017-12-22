@@ -12,4 +12,4 @@ At the end you have to press the button which says "Create quest" and then you c
 - Just report it in the [issue section](https://github.com/ENT8R/StreetCompleteQuestCreator/issues/) of this repository
 
 ### Screenshot
-![StreetCompleteQuestCreator](https://raw.githubusercontent.com/ENT8R/StreetCompleteQuestCreator/master/assets/screenshot.png)
+![StreetCompleteQuestCreator](https://raw.githubusercontent.com/ENT8R/ent8r.github.io/master/images/streetcompletequestcreator.png)
