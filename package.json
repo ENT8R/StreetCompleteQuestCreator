@@ -1,7 +1,7 @@
 {
   "name": "streetcomplete-quest-creator",
   "productName": "streetcomplete-quest-creator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An interface for creating new quests for the android application StreetComplete",
   "main": "index.html",
   "scripts": {
