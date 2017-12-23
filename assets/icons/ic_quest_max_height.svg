@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="max_height" transform="translate(436.96 -139.1)">
+  <path d="m-303.96 208.1c0 35.346-28.654 64-64 64s-64-28.654-64-64 28.654-64 64-64 64 28.654 64 64" fill="#fd5" stroke-width=".2"/>
+  <path d="m-315.96 210.1c0 28.719-23.281 52-52 52-28.719 0-52-23.281-52-52s23.281-52 52-52c28.719 0 52 23.281 52 52" fill-opacity=".2"/>
+  <g>
+   <path d="m-317.96 206.1c0 27.614-22.386 50-50 50-27.614 0-50-22.386-50-50s22.386-50 50-50c27.614 0 50 22.386 50 50" fill="#c84747" stroke="#fff" stroke-width="3.8462"/>
+   <circle cx="-367.98" cy="206.1" r="35.756" fill="#444"/>
+   <path d="m-352 238.08c12.123-6.0492 19.785-18.43 19.791-31.979-6e-3 -13.548-7.6684-25.929-19.791-31.979l-15.965 13.979-15.938-13.961c-12.128 6.0387-19.801 18.413-19.818 31.961 0.0176 13.548 7.6907 25.922 19.818 31.961l15.938-13.961z" fill="#fff"/>
+   <path d="m-377.96 192.1c-4.0013 2-5.0013 12-5.0013 12-2.1206 0.55846-5.0395 2.2998-5.0404 4.0781l0.0391 3.9219c2e-3 2 1.0013 3 4.0013 3v5s-0.27444 1.9473 1 2h5c1.2503 0 1-2 1-2v-4h18v4s-0.24382 2 1.0065 2h5.0013c1.2503 0 0.99218-2 0.99218-2v-5c3 0 4-1 4.0091-3v-4c-0.54462-1.8708-3.2587-3.4384-5.0013-4 0 0-1.0078-10-5.0013-12zm17.505 4c2.5007 3 2.5007 8 2.5007 8h-20.005s0-5 2.5007-8z" fill="#444"/>
+  </g>
+ </g>
+</svg>

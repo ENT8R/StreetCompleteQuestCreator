@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138.02" height="138.02" version="1.1" viewBox="0 0 138.02121 138.02119" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="traffic_lights" transform="translate(580.44 5.0106)">
+  <g transform="rotate(30 -439.71 -203.64)">
+   <path d="m-304 64c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#fd5" stroke-width=".2"/>
+  </g>
+  <path d="m-532 20v8h-16c-1.0548 12.365 6.0173 12.513 16 20v8h-16c-1.0548 12.365 6.0173 12.513 16 20v8h-16c-1.0548 12.365 6.0173 12.513 16 20v12h40v-12c9.9827-7.487 17.055-7.635 16-20h-16v-8c9.9827-7.487 17.055-7.635 16-20h-16v-8c9.9827-7.487 17.055-7.635 16-20h-16v-8z" fill-opacity=".2" style="paint-order:stroke fill markers"/>
+  <g>
+   <rect x="-532" y="16" width="40" height="96" fill="#888" style="paint-order:stroke fill markers"/>
+   <g stroke="#555" stroke-width="3">
+    <circle cx="-511.89" cy="37.455" r="11.998" fill="#ff6969" style="paint-order:normal"/>
+    <circle cx="-511.88" cy="65.483" r="12" fill="#ffff69" style="paint-order:normal"/>
+    <circle cx="-511.9" cy="93.514" r="12" fill="#69ff69" style="paint-order:normal"/>
+   </g>
+  </g>
+  <g fill="#555" fill-rule="evenodd">
+   <path d="m-532 24h-16c-1.0548 12.365 6.0173 12.513 16 20z"/>
+   <path d="m-532 52h-16c-1.0548 12.365 6.0173 12.513 16 20z"/>
+   <path d="m-532 80h-16c-1.0548 12.365 6.0173 12.513 16 20z"/>
+   <path d="m-492 24h16c1.0548 12.365-6.0173 12.513-16 20z"/>
+   <path d="m-492 52h16c1.0548 12.365-6.0173 12.513-16 20z"/>
+   <path d="m-492 80h16c1.0548 12.365-6.0173 12.513-16 20z"/>
+  </g>
+  <path d="m-499.9 93.48s-5.3726 7.9496-12 7.9496-11.989-7.9073-11.989-7.9073c0 6.6274 5.3615 11.989 11.989 11.989s12-5.4038 12-12.031z" fill="#fff" fill-opacity=".37647" style="paint-order:stroke fill markers"/>
+  <rect x="-518" y="112" width="12.065" height="16" fill="#555" style="paint-order:stroke fill markers"/>
+  <path d="m-499.91 65.438s-5.3726 7.9496-12 7.9496-11.989-7.9073-11.989-7.9073c0 6.6274 5.3615 11.989 11.989 11.989s12-5.4038 12-12.031z" fill="#fff" fill-opacity=".37647" style="paint-order:stroke fill markers"/>
+  <path d="m-499.91 37.438s-5.3726 7.9496-12 7.9496-11.989-7.9073-11.989-7.9073c0 6.6274 5.3615 11.989 11.989 11.989s12-5.4038 12-12.031z" fill="#fff" fill-opacity=".37647" style="paint-order:stroke fill markers"/>
+  <circle cx="-512.55" cy="64.479" r="27.664" fill="#ffff69" fill-opacity=".26667" style="paint-order:normal"/>
+ </g>
+</svg>

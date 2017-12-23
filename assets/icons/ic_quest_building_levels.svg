@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138.03" height="138.03" version="1.1" viewBox="0 0 138.03377 138.03377" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="building_levels" transform="matrix(.2 0 0 -.2 -4.1225 156.84)">
+  <path d="m662.34 319.1c-66.274-163.83-252.81-242.92-416.65-176.65-163.83 66.274-242.92 252.81-176.65 416.65 66.274 163.83 252.81 242.92 416.65 176.65s242.92-252.81 176.65-416.65" fill="#c8c4b7"/>
+  <path d="m365.33 599.1-160-160-0.176-276.78c12.868-7.4433 26.36-14.138 40.537-19.873 6.5075-2.6324 13.068-4.9514 19.639-7.1289v43.955h70v-58.74c10.042-0.9611 20.068-1.4296 30.059-1.4356h6.416c7.8799 0.154 15.721 0.6639 23.525 1.3965v59.658h70v-45.078c20.857 6.8468 40.955 15.829 60 26.777v277.25zm-35-60h70v-80h-70zm-65-120h70v-80h-70zm130 0h70v-80h-70zm-130-120h70v-80h-70zm130 0h70v-80h-70z" fill="#fff"/>
+  <path d="m165.33 439.1 200 200 200-200" fill="none" stroke="#000" stroke-linecap="square" stroke-opacity=".2" stroke-width="56"/>
+  <path d="m165.33 457.78 200 200 200-200" fill="none" stroke="#c84747" stroke-linecap="square" stroke-width="56"/>
+  <g fill-opacity=".2">
+   <rect transform="scale(1,-1)" x="330.33" y="-539.1" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="265.33" y="-419.1" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="395.33" y="-419.1" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="265.33" y="-299.1" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="395.33" y="-299.1" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="265.33" y="-179.27" width="70" height="20" style="paint-order:normal"/>
+   <rect transform="scale(1,-1)" x="395.33" y="-180.15" width="70" height="20" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>

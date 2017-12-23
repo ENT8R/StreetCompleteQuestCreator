@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00008 138.0002" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="lantern" transform="translate(581 5)">
+  <g stroke-width=".2">
+   <path d="m-448 64c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#529add"/>
+   <path d="m-528 93.375v8l10 4h12l10-4v-8z" fill-opacity=".2"/>
+   <path d="m-569.88 36.68c-3.9184 8.2868-6.1172 17.545-6.1172 27.32 0 15.65 5.6252 29.98 14.953 41.1l37.047-17.1h24l37.047 17.1c9.328-11.12 14.953-25.45 14.953-41.1 0-9.775-2.1988-19.033-6.1172-27.32l-29.883 3.3203h-56z" fill="#ffffdf" fill-opacity=".53333"/>
+  </g>
+  <g stroke="#c1a551" stroke-width="4">
+   <path d="m-536 40 8 48h32l8-48z" fill="#ffffdf" fill-rule="evenodd"/>
+   <path d="m-524 40 4 48" fill="none"/>
+   <path d="m-500 40-4 48" fill="none"/>
+  </g>
+  <path d="m-544 40h64v-8c-12 0-20-16-32-20-12 4-20 20-32 20z" fill="#555" fill-rule="evenodd"/>
+  <path d="m-528 88v8l10 4v27.711c1.9766 0.18389 3.9754 0.28906 6 0.28906s4.0234-0.10517 6-0.28906v-27.711l10-4v-8z" fill="#555" stroke-width=".2"/>
+ </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="smoke" transform="translate(293.06 -427.03)">
+  <path d="m-160.06 496.03c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#e9a76f" stroke-width=".2"/>
+  <g transform="matrix(.81605 .47115 -.39262 .68004 146.38 276.73)" fill-opacity=".2">
+   <rect x="-272.06" y="479.9" width="36" height="24" ry="0" style="paint-order:normal"/>
+   <rect x="-236.06" y="479.9" width="52" height="24" style="paint-order:normal"/>
+   <rect x="-182.06" y="479.9" width="5.9375" height="24" style="paint-order:normal"/>
+   <rect x="-174.06" y="479.9" width="6" height="24" style="paint-order:normal"/>
+  </g>
+  <g transform="matrix(.81605 .47115 -.39262 .68004 146.56 272.27)">
+   <rect x="-272.06" y="479.9" width="36" height="24" ry="0" fill="#ffd47e" style="paint-order:normal"/>
+   <rect x="-236.06" y="479.9" width="52" height="24" fill="#fff" style="paint-order:normal"/>
+   <rect x="-182.06" y="479.9" width="5.9375" height="24" fill="#666" style="paint-order:normal"/>
+   <rect x="-174.06" y="479.9" width="6" height="24" fill="#7b3b3b" style="paint-order:normal"/>
+  </g>
+  <path d="m-205.09 443.75c-21.598 38.816 60.697 47.303 24.259 70.78 6.9403-33.163-77.424-20.827-24.259-70.78z" fill-opacity=".2" fill-rule="evenodd"/>
+  <path d="m-205.02 439.9c-21.598 38.816 60.697 47.303 24.259 70.78 6.9403-33.163-77.424-20.827-24.259-70.78z" fill="#666" fill-rule="evenodd"/>
+ </g>
+</svg>

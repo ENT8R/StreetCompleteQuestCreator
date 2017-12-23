@@ -9,6 +9,7 @@
   <!-- CSS  -->
   <link rel="stylesheet" href="css/iconfont/material-icons.css">
   <link rel="stylesheet" href="css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/image-picker.css">
   <link rel="stylesheet" href="css/materialize-0.100.2.min.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -127,17 +128,9 @@
               <label for="commit">Commit message</label>
             </div>
 
-            <!-- Whether the quest should be shown without selecting it in the settings
-            <div class="switch col s12 m6 offset-s2">
-              Enabled by default<br>
-              <label>
-              Off
-              <input id="enabled" type="checkbox">
-              <span class="lever"></span>
-              On
-            </label>
+            <div class="input-field col s12 m6">
+              <a class="waves-effect waves-light btn-large indigo modal-trigger" data-target="select-icon"><i class="mdi mdi-image left"></i>Select icon</a>
             </div>
-            -->
 
             <div id="yes-no-more-options">
               <ul class="collapsible col s12">
@@ -202,75 +195,6 @@
               </li>
             </ul>
 
-            <!-- Modal for adding a new answer -->
-            <div id="add-new-answer" class="modal modal-fixed-footer">
-              <div class="modal-content">
-                <h4>Add a new answer</h4>
-
-                <div class="row">
-                  <!-- The corresponding OSM value for this answer -->
-                  <div class="input-field col s12">
-                    <i class="mdi mdi-key prefix"></i>
-                    <input id="osm-value" type="text" name="osmValue" required>
-                    <label for="osm-value">OSM value which should be set for this answer</label>
-                  </div>
-
-                  <!-- The answer -->
-                  <div class="input-field col s12">
-                    <i class="mdi mdi-exclamation prefix"></i>
-                    <input id="answer" type="text" name="answer">
-                    <label for="answer">Answer</label>
-                  </div>
-
-                  <!-- Select an image -->
-                  <div class="file-field input-field col s12">
-                    <div class="btn indigo">
-                      <span><i class="mdi mdi-image left"></i>Select image</span>
-                      <input id="image-select" type="file" name="imageSelect" accept="image/*" required>
-                    </div>
-                    <div class="file-path-wrapper">
-                      <input class="file-path" type="text">
-                    </div>
-                  </div>
-
-                  <!-- Preview the selected image -->
-                  <div id="preview-image" class="col s12 center"></div>
-                </div>
-
-              </div>
-              <div class="modal-footer">
-                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-close-button">Close</a>
-                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-new-answer-button">Add</a>
-              </div>
-            </div>
-
-            <!-- Modal for adding an other answer -->
-            <div id="add-other-answer" class="modal">
-              <div class="modal-content">
-                <h4>Add other answer</h4>
-
-                <div class="row">
-                  <!-- An other answer (hidden in a submenu) -->
-                  <div class="input-field col s12">
-                    <i class="mdi mdi-plus-circle prefix"></i>
-                    <input id="other-answer" type="text" name="otherAnswer">
-                    <label for="other-answer">Other answer</label>
-                  </div>
-
-                  <!-- The OSM value for the other answer -->
-                  <div class="input-field col s12">
-                    <i class="mdi mdi-exclamation prefix"></i>
-                    <input id="other-answer-value" type="text" name="otherAnswerValue">
-                    <label for="other-answer-value">OSM values for this answer</label>
-                  </div>
-                </div>
-
-              </div>
-              <div class="modal-footer">
-                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-other-answer-close-button">Close</a>
-                <a class="modal-action waves-effect waves-indigo btn-flat" id="add-other-answer-button">Add</a>
-              </div>
-            </div>
           </div>
 
           <div id="finish" class="row">
@@ -285,6 +209,8 @@
               </button>
             </div>
           </div>
+
+          <div id="modals"></div>
 
         </form>
 
@@ -327,6 +253,7 @@
   <script src="js/jquery/jquery.validate-1.17.0.min.js"></script>
   <script src="js/mustache/mustache-2.3.0.min.js"></script>
   <script src="js/jszip/jszip-3.1.5.min.js"></script>
+  <script src="js/imagepicker/image-picker.min.js"></script>
   <script src="js/materialize/materialize-0.100.2.min.js"></script>
 
   <script src="js/helper.js"></script>

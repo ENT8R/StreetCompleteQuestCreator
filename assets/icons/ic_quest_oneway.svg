@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138.02" height="138.02" version="1.1" viewBox="0 0 138.02121 138.02119" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="oneway" transform="rotate(30 -158.84 881.98)">
+  <path d="m-304 64c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#fd5" stroke-width=".2"/>
+  <path d="m-321.95 39.617c14.359 24.871 5.8377 56.674-19.033 71.033-24.871 14.359-56.674 5.8377-71.033-19.033-14.359-24.871-5.8377-56.674 19.033-71.033 24.871-14.359 56.674-5.8377 71.033 19.033" fill-opacity=".2"/>
+  <path d="m-325.68 37.153c13.807 23.914 5.6132 54.494-18.301 68.301-23.914 13.807-54.494 5.6132-68.301-18.301-13.807-23.914-5.6132-54.494 18.301-68.301 23.914-13.807 54.494-5.6132 68.301 18.301" fill="#c84747" stroke="#fff" stroke-width="3.8462"/>
+  <rect transform="rotate(-30)" x="-390.67" y="-140.62" width="80" height="20" fill="#fff" style="paint-order:normal"/>
+ </g>
+</svg>

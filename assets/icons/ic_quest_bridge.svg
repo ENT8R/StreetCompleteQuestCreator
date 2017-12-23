@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="bridge" transform="translate(-1603.1 -270.42)">
+  <circle class="st0" cx="1672.1" cy="339.42" r="64" fill="#aaa"/>
+  <g transform="translate(0,4)" fill="none" stroke="#000" stroke-linecap="square" stroke-opacity=".2" stroke-width="8">
+   <path d="m1619.3 323.39h104.82"/>
+   <path d="m1627.3 362.59s12.8-27.2 44.8-27.2 44.8 27.2 44.8 27.2"/>
+  </g>
+  <g stroke="#fff">
+   <path d="m1672.1 323.39v12" fill="#fff" stroke-width="4"/>
+   <g fill="none">
+    <path d="m1619.3 323.39h104.82" stroke-linecap="square" stroke-width="8"/>
+    <path d="m1627.3 362.59s12.8-27.2 44.8-27.2 44.8 27.2 44.8 27.2" stroke-linecap="square" stroke-width="8"/>
+    <g stroke-width="4">
+     <path d="m1688.1 339.39v-16"/>
+     <path d="m1656.1 339.39v-16"/>
+     <path d="m1704.1 347.39v-24"/>
+     <path d="m1640.1 348.55v-25.155"/>
+     <path d="m1720.1 363.39v-40"/>
+     <path d="m1624.1 363.39v-40"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

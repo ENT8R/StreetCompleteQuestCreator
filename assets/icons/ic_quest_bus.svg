@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="bus" transform="translate(-1010.8 -395.2)">
+  <g id="bus_stop" transform="translate(1732.8 544.2)">
+   <path d="m-589-80c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64 35.346 0 64 28.654 64 64" fill="#529add" stroke-width=".2"/>
+  </g>
+  <path d="m1039 462.93c0 1.3057 0.702 2 2 2h3c1.298 0 2-0.6943 2-2v-2.0292h2v33.06h-0.8984c-1.2957 0-2.0665 0.7451-2.0665 2.0508v2.0078c0 1.3057 0.7317 1.9649 2.0274 1.9649h4.9297l-0.025 3.9707c0 2.6223 1.1125 4.0256 4.0625 4.0176l7.9082-0.022c2.9527-0.01 4.0453-1.4188 4.0625-4.0411l0.025-3.9257h23.988l0.059 3.9824c0.038 2.6087 1.036 4.043 3.9609 4.043h8.0391c2.9275 0 3.9277-1.4711 3.9277-4.0801v-3.9453h4.9766c1.298 0 2.1344-0.7044 2.1054-2.0098l-0.045-2.0059c-0.029-1.3053-0.7391-2.0078-2.0371-2.0078h-1l0.025-32.958h2l-0.025 1.9276c-0.017 1.3056 0.702 2 2 2h3c1.298 0 2-0.6943 2-2 0.2562-8.9819 0.025-16.928 0.025-16.928h-82c-0.053 20.198-0.1006-17.872-0.025 16.928z" fill-opacity=".2"/>
+  <g transform="translate(0,1024)">
+   <g transform="matrix(2.6721 0 0 -2.3732 1068 -524.72)" stroke-width=".49638">
+    <path d="m0-0.29796c-0.006456-1.105-0.41538-1.6986-1.5204-1.702l-2.9593-0.00931c-1.104-0.0034749-1.5204 0.58773-1.5204 1.6927l0.012266 2.118h6z" fill="#555"/>
+   </g>
+   <g transform="matrix(2.6493 0 0 -2.3611 1108 -524.66)" stroke-width=".49979">
+    <path d="m0-0.28076c0-1.105-0.37788-1.7286-1.4829-1.7286h-3.0342c-1.104 0-1.4803 0.60727-1.4947 1.7121l-0.027526 2.1149h6.0393z" fill="#555"/>
+   </g>
+   <g transform="matrix(2.3472 0 0 -2.3611 1123.8 -564.82)" stroke-width=".53098">
+    <path d="m-1.1792 0.074872c0-0.553-0.29909-0.84706-0.85209-0.84706h-1.2781c-0.553 0-0.85207 0.29406-0.85207 0.84706v7.2c0 0.552 0.29907 0.84706 0.85207 0.84706h1.2781c0.553 0 0.85207-0.29506 0.85207-0.84706z" fill="#99aab5"/>
+   </g>
+   <g transform="matrix(2.25 0 0 -1.9549 1118.2 -577.95)" stroke-width=".59602">
+    <path d="m-1-1h-32v2h32z" fill="#99aab5"/>
+   </g>
+   <g transform="matrix(2.1818 0 0 -2.4861 1116 -569.51)" stroke-width=".53671">
+    <path d="m0-1.0112-33 0.011174v2l33-4.4e-7z" fill="#99aab5"/>
+   </g>
+   <g transform="matrix(2.3472 0 0 -2.3611 1096.2 -600.39)" stroke-width=".53098">
+    <path transform="matrix(.42604 0 0 -.42353 -467.01 -254.28)" d="m1068-604c-3.0432 0.11134-3.9787 1.6973-4 4l-8-1e-5c-5.1849 0.0256-8 2.7843-8 8v28h64v-28c0-5.2157-2.6935-8.011-8-8h-7.873c-0.1982-2.7997-2.0299-3.9358-4.127-4z" fill="#ccd6dd"/>
+   </g>
+   <path d="m1112-532h-64v-32h64z" fill="#ffcc4d"/>
+   <path d="m1112-534h-64v-14h64z" fill="#ffac33"/>
+   <g stroke-width=".53098">
+    <g transform="matrix(2.3472 0 0 -2.3611 1117.3 -529.56)">
+     <path d="m-0.94141 0.16846c0.012243-0.55287-0.34428-0.85081-0.89728-0.85081h-28.081c-0.552 0-0.86386 0.27909-0.86386 0.83209v0.85026c0 0.553 0.32824 0.86898 0.88024 0.86898h28.075c0.553 0 0.85596-0.29739 0.8682-0.85026z" fill="#66757f"/>
+    </g>
+    <g transform="matrix(2.3472 0 0 -2.3611 1114.9 -564.97)">
+     <path d="m-1.2545-0.41176c0.14371-1.6508-0.88735-2.5882-2.5444-2.5882h-22.16c-1.657 0-2.5622 0.93124-2.5622 2.5882v7.6765c0 1.657 0.90517 2.4882 2.5622 2.4882h22.201c1.657 0 2.3593-0.83741 2.503-2.4882z" fill="#66757f"/>
+    </g>
+    <g transform="matrix(2.3472 0 0 -2.3611 1108 -567.21)">
+     <path d="m0-0.52941c0-1.104-0.59914-1.6814-1.7041-1.6814h-20.45c-1.104 0-1.7483 0.64932-1.7041 1.7524v5.8765c0.04418 1.1031 0.60014 1.6941 1.7041 1.6941h20.45c1.105 0 1.7041-0.59012 1.7041-1.6941z" fill="#88c9f9"/>
+    </g>
+   </g>
+   <path d="m1092-536h-24v-10h24z" fill="#99aab5"/>
+   <g transform="matrix(2.9913 0 0 -2.2361 1092 -596.66)" stroke-width=".48332">
+    <path d="m-1.0029-1.1894h-6.0174c-0.6686 0-1.0029 0.4472-1.0029 1.3416 0 0.89441 0.3343 1.3416 1.0029 1.3416h6.0174c0.6686 0 1.0029-0.4472 1.0029-1.3416 0-0.89441-0.3343-1.3416-1.0029-1.3416z" fill="#555"/>
+   </g>
+   <g transform="matrix(2.3472 0 0 -2.3611 1048.8 -564.82)" stroke-width=".53098">
+    <path d="m-1.1792 0.074872c0-0.553-0.29909-0.84706-0.85209-0.84706h-1.2781c-0.553 0-0.85207 0.29406-0.85207 0.84706v7.2c0 0.552 0.29907 0.84706 0.85207 0.84706h1.2781c0.553 0 0.85207-0.29506 0.85207-0.84706z" fill="#99aab5"/>
+   </g>
+   <circle cx="1056" cy="-541" r="5" fill="#fff" style="paint-order:normal"/>
+   <circle cx="1104" cy="-541" r="5" fill="#fff" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>

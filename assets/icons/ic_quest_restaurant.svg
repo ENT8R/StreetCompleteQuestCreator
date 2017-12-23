@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 137.99999" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="restaurant" transform="translate(293.06 -427.03)">
+  <path d="m-160.06 496.03c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#e9a76f" stroke-width=".2"/>
+  <g>
+   <path d="m-253.8 448.65c-1.5893 0-2.8802 1.2909-2.8802 2.8802v20.155c0 8.9725 1.8805 16.566 8.6384 19.177v55.681c0 3.1815 2.5796 5.758 5.7581 5.758 3.1786 0 5.7581-2.5766 5.7581-5.758v-55.681c6.7579-2.6112 8.6384-10.205 8.6384-19.177v-20.155c0-1.5893-1.2909-2.8802-2.8802-2.8802-1.5893 0-2.8779 1.2909-2.8779 2.8802v20.155c0 1.5893-1.2909 2.8778-2.8802 2.8778-1.5893 0-2.8779-1.2885-2.8779-2.8778v-20.155c0-1.5893-1.2909-2.8802-2.8802-2.8802-1.5893 0-2.8779 1.2909-2.8779 2.8802v20.155c0 1.5893-1.2909 2.8778-2.8802 2.8778-1.5893 0-2.8802-1.2885-2.8802-2.8778v-20.155c0-1.5893-1.2886-2.8802-2.8779-2.8802z" fill-opacity=".2"/>
+   <path d="m-253.43 443.81c-1.5893 0-2.8802 1.2909-2.8802 2.8802v20.155c0 8.9725 1.8805 16.566 8.6383 19.177v55.681c0 3.1815 2.5796 5.758 5.7581 5.758s5.7581-2.5766 5.7581-5.758v-55.681c6.7579-2.6112 8.6384-10.205 8.6384-19.177v-20.155c0-1.5893-1.2909-2.8802-2.8802-2.8802-1.5893 0-2.8779 1.2909-2.8779 2.8802v20.155c0 1.5893-1.2909 2.8778-2.8802 2.8778-1.5893 0-2.8779-1.2885-2.8779-2.8778v-20.155c0-1.5893-1.2909-2.8802-2.8802-2.8802-1.5893 0-2.8779 1.2909-2.8779 2.8802v20.155c0 1.5893-1.2909 2.8778-2.8802 2.8778-1.5893 0-2.8802-1.2885-2.8802-2.8778v-20.155c0-1.5893-1.2886-2.8802-2.8779-2.8802z" fill="#fff"/>
+   <path d="m-198.77 448.69c-5.6302 0-14.076 14.076-14.076 30.964 0 12.732 4.031 18.543 8.4461 21.102v43.649c0 3.1107 2.5221 5.6299 5.63 5.6299 3.1106 0 5.6299-2.5192 5.6299-5.6299v-87.268c0-5.6301-2.8149-8.446-5.6299-8.446z" fill-opacity=".2"/>
+   <path d="m-198.41 443.96c-5.6301 0-14.076 14.076-14.076 30.964 0 12.732 4.031 18.543 8.4461 21.102v43.649c0 3.1107 2.5221 5.6299 5.63 5.6299 3.1106 0 5.63-2.5192 5.63-5.6299v-87.268c0-5.6301-2.8149-8.446-5.63-8.446z" fill="#fff"/>
+  </g>
+ </g>
+</svg>

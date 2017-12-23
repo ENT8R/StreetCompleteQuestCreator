@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138.02" height="138.02" version="1.1" viewBox="0 0 138.02121 138.02121" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="quest" transform="translate(725.06 -426.99)">
+  <path d="m-600.63 528c-17.673 30.611-56.815 41.099-87.426 23.426-30.611-17.673-41.099-56.815-23.426-87.426 17.673-30.611 56.815-41.099 87.426-23.426 30.611 17.673 41.099 56.815 23.426 87.426" fill="#e45f5f" stroke-width=".2"/>
+  <path d="m-656 448 16 32 33.841 4.927-25.49 25.105 5.7715 33.707-31.753-16.484-30.274 15.905 5.8649-35.293-24.482-23.877 35.378-5.3284z" fill-opacity=".2" style="paint-order:normal"/>
+  <path d="m-656 444 16 32 33.841 4.927-25.49 25.105 5.7715 33.707-31.753-16.484-30.274 15.905 5.8649-35.293-24.482-23.877 35.378-5.3284z" fill="#fff" style="paint-order:normal"/>
+ </g>
+</svg>

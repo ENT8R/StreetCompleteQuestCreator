@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="building" transform="matrix(.2 0 0 -.2 -3.8894 154.73)">
+  <path d="m684.45 428.65c0-176.73-143.27-320-320-320s-320 143.27-320 320 143.27 320 320 320 320-143.27 320-320" fill="#c8c4b7"/>
+  <path d="m364.87 569.16-159.97-159.97h-0.516v-180.03h113.23v139.61h94.672v-139.61h113.31v180.03h-0.7656z" fill-opacity=".2" fill-rule="evenodd"/>
+  <path d="m166.62 424.16 200 200 200-200" fill="none" stroke="#000" stroke-linecap="square" stroke-opacity=".19608" stroke-width="56"/>
+  <path d="m364.87 589.16-159.97-159.97h-0.516v-180.03h113.23v139.61h94.672v-139.61h113.31v180.03h-0.7656z" fill="#fff" fill-rule="evenodd" stroke-width="8"/>
+  <path d="m166.72 446.59 200 200 200-200" fill="none" stroke="#c84747" stroke-linecap="square" stroke-width="56"/>
+ </g>
+</svg>

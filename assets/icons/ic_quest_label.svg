@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="label" transform="translate(437 -427)">
+  <path d="m-304 496c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#e9a76f" stroke-width=".2"/>
+  <path d="m-341.66 476c-7.0275-3.7782-0.33999-20 7.66-34" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="8" style="paint-order:normal"/>
+  <path transform="rotate(8.3965)" d="m-269.08 516.83c-7.5039-2.7116-4.7973-16.476 1.0726-31.494" fill="none" stroke="#7077ce" stroke-width="8" style="paint-order:normal"/>
+  <path d="m-368.01 460-46 46v4l36 36h4l46-46v-38l-2-2zm26.014 8a5.9855 5.9924 0 0 1 5.9863 5.9922 5.9855 5.9924 0 0 1 -5.9863 5.9922 5.9855 5.9924 0 0 1 -5.9844 -5.9922 5.9855 5.9924 0 0 1 5.9844 -5.9922z" fill-opacity=".2" style="paint-order:normal"/>
+  <path d="m-368 456-46 46v4l36 36h4l46-46v-38l-2-2zm26.014 8a5.9855 5.9924 0 0 1 5.9863 5.9922 5.9855 5.9924 0 0 1 -5.9863 5.9922 5.9855 5.9924 0 0 1 -5.9844 -5.9922 5.9855 5.9924 0 0 1 5.9844 -5.9922z" fill="#fff" style="paint-order:normal"/>
+  <path d="m-310 469.55c-11.141 6.1669-22.034 7.418-32 2.4512" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="8" style="paint-order:normal"/>
+  <path transform="rotate(8.3965)" d="m-239.97 506.77c-10.121 7.7277-18.866 13.344-29.451 9.8854" fill="none" stroke="#7077ce" stroke-width="8" style="paint-order:normal"/>
+ </g>
+</svg>

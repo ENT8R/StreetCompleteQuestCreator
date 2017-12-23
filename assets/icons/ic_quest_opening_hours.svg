@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="clock" transform="translate(722 149)">
+  <path d="m-589-80c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64 35.346 0 64 28.654 64 64" fill="#e9a76f" stroke-width=".2"/>
+  <g transform="translate(0,-2)">
+   <ellipse cx="-653.04" cy="-76.141" rx="46.139" ry="46.139" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".2" stroke-width="7.7222" style="paint-order:normal"/>
+   <g stroke="#666" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="-652.92" cy="-80.024" rx="46.139" ry="46.139" fill="#fff" stroke-width="7.7222" style="paint-order:normal"/>
+    <path d="m-652.95-80-21.234-16.133" fill="none" stroke-width="8"/>
+    <path d="m-622.01-98.466-30.918 18.442" fill="none" stroke-width="6"/>
+   </g>
+   <ellipse cx="-652.92" cy="-80.024" rx="8.0303" ry="8.0146" fill="#444" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>

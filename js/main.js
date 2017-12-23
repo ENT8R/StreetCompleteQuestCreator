@@ -3,21 +3,20 @@ const baseDir = {
   res: 'app/src/main/res/'
 };
 
-let osmItems = [];
-let otherAnswers = [];
-
-const drawableSizes = {
-  mdpi: 128,
-  hdpi: 192,
-  xhdpi: 256,
-  xxhdpi: 384
+const drawable = {
+  size: {
+    mdpi: 128,
+    hdpi: 192,
+    xhdpi: 256,
+    xxhdpi: 384
+  },
+  name: [
+    'mdpi',
+    'hdpi',
+    'xhdpi',
+    'xxhdpi'
+  ]
 };
-const drawableSizesNames = [
-  'mdpi',
-  'hdpi',
-  'xhdpi',
-  'xxhdpi'
-];
 
 let yesNoQuestTemplate;
 let imageQuestTemplate;
@@ -25,6 +24,13 @@ let imageQuestFormTemplate;
 
 let questModuleTemplate;
 let stringValues;
+
+let osmItems = [];
+let otherAnswers = [];
+
+let icon = 'ic_quest_star';
+
+Helper.loadPartials();
 
 Helper.get('./assets/templates/YesNoQuest.mst', function(data) {
   yesNoQuestTemplate = data;
@@ -44,10 +50,8 @@ Helper.get('https://raw.githubusercontent.com/westnordost/StreetComplete/master/
 });
 
 $(document).ready(function() {
-  $('select').material_select();
-  $('.modal').modal({
-    dismissible: false
-  });
+  $('#type').material_select();
+  $('#importance').material_select();
 
   $('select').css({
     display: 'block',
@@ -67,62 +71,6 @@ $(document).ready(function() {
       e.preventDefault();
       generateFiles();
     }
-  });
-
-  //Set click listeners
-  $('#create-new-quest').click(function() {
-    clearInput();
-  });
-
-  //Add new answer modal
-  $('#add-new-answer-button').click(function() {
-    addNewAnswer();
-  });
-  $('#add-new-answer-close-button').click(function() {
-    if ($('#osm-value').val() != '' || $('#answer').val() != '') {
-      return Materialize.toast('Form is not empty!', 6000);
-    } else {
-      clearAddAnswerModal();
-      $('#add-new-answer').modal('close');
-    }
-  });
-
-  //Add other answer modal
-  $('#add-other-answer-button').click(function() {
-    addOtherAnswer();
-  });
-  $('#add-other-answer-close-button').click(function() {
-    if ($('#other-answer').val() != '') {
-      return Materialize.toast('Form is not empty!', 6000);
-    } else {
-      clearAddOtherAnswerModal();
-      $('#add-other-answer').modal('close');
-    }
-  });
-
-  //Clear input
-  $('.clear-input').click(function() {
-    clearInput();
-  });
-
-  //Set change listeners
-  $('#type').change(function() {
-    $('#quest').fadeIn(500);
-    $('#finish').fadeIn(500);
-
-    switch ($('#type').val()) {
-      case '1':
-        $('#quest-form').hide();
-        $('#yes-no-more-options').show();
-        break;
-      case '2':
-        $('#yes-no-more-options').hide();
-        $('#quest-form').fadeIn(500);
-        break;
-    }
-  });
-  $('#image-select').change(function() {
-    Helper.processImage(this.files[0]);
   });
 });
 
@@ -183,7 +131,8 @@ function generateFiles() {
         commitMessage: commitMessage,
         question: 'R.string.quest_' + directory + '_title',
         answerYes: answerYes || 'yes',
-        answerNo: answerNo || 'no'
+        answerNo: answerNo || 'no',
+        icon: icon
       });
       //Add quest to the zip archive
       zip.file(baseDir.java + 'quests/' + directory + '/' + className + '.java', renderedYesNoQuest);
@@ -213,9 +162,9 @@ function generateFiles() {
       for (let i = 0; i < osmItems.length; i++) {
         let drawableName = directory + '_' + osmItems[i].osmValue;
 
-        for (let x = 0; x < Object.keys(drawableSizes).length; x++) {
-          let drawableSizeName = drawableSizesNames[x];
-          let drawableSize = drawableSizes[drawableSizeName];
+        for (let x = 0; x < drawable.name.length; x++) {
+          let drawableSizeName = drawable.name[x];
+          let drawableSize = drawable.size[drawableSizeName];
           zip.file(baseDir.res + '/drawable-' + drawableSizeName + '/' + drawableName + '.jpg', Helper.resizeImage(osmItems[i].image, drawableSize));
         }
         osmItems[i].image = 'R.drawable.' + drawableName;
@@ -228,7 +177,8 @@ function generateFiles() {
         osmTag: osmTag,
         commitMessage: commitMessage,
         question: 'R.string.quest_' + directory + '_title',
-        otherAnswers: otherAnswers
+        otherAnswers: otherAnswers,
+        icon: icon
       });
       //Add quest to the zip archive
       zip.file(baseDir.java + 'quests/' + directory + '/' + className + '.java', renderedImageQuest);
@@ -278,10 +228,10 @@ function addNewAnswer() {
 
     $('#preview-quest-form-images').append(
       '<div class="image-container">' + image +
-        '<div class="text-container">' +
-          '<div class="text-bottom">' + answer + '</div>' +
+      '<div class="text-container">' +
+      '<div class="text-bottom">' + answer + '</div>' +
       '</div>' +
-    '</div>&nbsp;');
+      '</div>&nbsp;');
 
     clearAddAnswerModal();
   }
@@ -331,6 +281,7 @@ function clearInput() {
   osmItems = [];
   otherAnswers = [];
   stringArray = [];
+  icon = 'ic_quest_star';
   Materialize.updateTextFields();
 }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="leaf" transform="translate(-1203 -779)">
+  <path d="m1336 848c0 35.346-28.654 64-64 64s-64-28.654-64-64 28.654-64 64-64 64 28.654 64 64" fill="#b9a065" stroke-width=".2"/>
+  <path d="m1322 821.52c-28.027 4.4727-61.002-4.484-78.41 7.0117-17.926 11.837-7.7218 27.519-2.4297 35.477l-13.844 7.2793 2.8457 4.9707 13.82-8.2598c15.633 19.298 41.466 13.117 53.607 5.3262 23.843-15.3 13.57-27.594 24.41-51.805z" fill-opacity=".2" fill-rule="evenodd"/>
+  <g transform="translate(0,-3)" fill-rule="evenodd">
+   <path d="m1242.4 865.02c-4.4301-6.9688-18.612-24.659 1.0185-37.622 17.408-11.496 50.383-2.5376 78.409-7.0102z" fill="#5cae32"/>
+   <path d="m1242.4 865.02 39.714-22.316 39.714-22.316c-10.84 24.211-0.5669 36.505-24.41 51.805-12.514 8.0303-39.574 14.352-55.018-7.1726z" fill="#63b439"/>
+   <g fill="#4a8c28">
+    <path d="m1227.1 870.16 2.846 4.9702l90.039-53.807z"/>
+    <path d="m1244 841.41 5 19.589 20.761 12.507-17.132-15.218z"/>
+    <path d="m1253.9 828 8.0943 26 26 17.029-23-19.029z"/>
+    <path d="m1270.5 825.46 4.4561 21.544 26.937 13-23.937-15.596z"/>
+    <path d="m1288 825.13v13.867l20 5-16-6.895z"/>
+   </g>
+  </g>
+ </g>
+</svg>

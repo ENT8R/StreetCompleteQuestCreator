@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138.02" height="138.07" version="1.1" viewBox="0 0 138.02121 138.06923" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="street_surface_paved_detail" transform="rotate(30 -158.9 881.99)">
+  <g stroke-width=".2">
+   <path d="m-304 64c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64s28.654-64 64-64c35.346 0 64 28.654 64 64" fill="#fd5"/>
+   <path d="m-332.54 117.43c2.8261-1.8368 5.4684-3.9609 7.9627-6.2081l0.0774-94.108c-2.4946-2.2475-4.3286-4.089-8.069-5.7337 0 0 0.10064 106.17 0.0288 106.05z" fill-opacity=".2"/>
+   <path d="m-400 8.5271c-2.8083 1.6252-5.4826 3.4538-8 5.4727v99.887c2.5174 2.0189 5.1917 3.8474 8 5.4727z" fill="#fff"/>
+  </g>
+  <g>
+   <path d="m-367.99 0.03494c-11.665 0-22.59 3.1359-32.008 8.5879v110.82c9.4177 5.452 20.343 8.5879 32.008 8.5879 11.644 0 22.551-3.1248 31.957-8.5586v-110.88c-9.4062-5.4338-20.313-8.5586-31.957-8.5586z" fill="#999" stroke-width=".2"/>
+   <path d="m-336 8.5271v110.83c2.8083-1.6252 5.4826-3.4538 8-5.4727v-99.887c-2.5174-2.0189-5.1917-3.8474-8-5.4727z" fill="#fff" stroke-width=".2"/>
+   <circle cx="-385.98" cy="25.954" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-367.38" cy="15.57" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-379.73" cy="46.475" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-386.54" cy="98.242" r="6" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-374.65" cy="108.94" r="6" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-388.61" cy="70.155" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-349.44" cy="24.062" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-355.62" cy="119.37" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-354.89" cy="29.871" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-389.32" cy="115.35" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-389.61" cy="40.727" r="6" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-378.32" cy="9.1431" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <g fill="#bbb">
+    <circle cx="-372" cy="32" r="4" style="paint-order:stroke fill markers"/>
+    <circle cx="-357.81" cy="7.5387" r="4" style="paint-order:stroke fill markers"/>
+    <circle cx="-385.61" cy="51.338" r="4" style="paint-order:stroke fill markers"/>
+   </g>
+   <circle cx="-386.1" cy="82.031" r="4" fill="#777" style="paint-order:stroke fill markers"/>
+   <circle cx="-394.92" cy="90.034" r="4" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-379.8" cy="121.61" r="4" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <g fill="#bbb">
+    <circle cx="-342.59" cy="106.81" r="4" style="paint-order:stroke fill markers"/>
+    <circle cx="-391.09" cy="10.967" r="4" style="paint-order:stroke fill markers"/>
+    <circle cx="-345.11" cy="12.353" r="4" style="paint-order:stroke fill markers"/>
+   </g>
+   <circle cx="-366" cy="26" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-376.27" cy="22.378" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-381.07" cy="35.369" r="2" fill="#777" style="paint-order:stroke fill markers"/>
+   <circle cx="-373.05" cy="37.293" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-378.12" cy="82.875" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-376.36" cy="99.414" r="2" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-351.73" cy="110.13" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-372.25" cy="124.5" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-343.25" cy="120" r="2" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-394.25" cy="63.25" r="2" fill="#777" style="paint-order:stroke fill markers"/>
+   <circle cx="-393.75" cy="29" r="2" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-358.75" cy="16.75" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-340.75" cy="20.75" r="2" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-397.25" cy="76.25" r="2" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-395.5" cy="48.5" r="2" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-388.77" cy="59.225" r="3.225" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <g fill="#777">
+    <circle cx="-366.67" cy="117.59" r="3.225" style="paint-order:stroke fill markers"/>
+    <circle cx="-394.65" cy="105.97" r="3.225" style="paint-order:stroke fill markers"/>
+    <circle cx="-344.51" cy="112.29" r="3.225" style="paint-order:stroke fill markers"/>
+   </g>
+   <circle cx="-383.07" cy="16.355" r="3.225" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-364.58" cy="5.613" r="3.225" fill="#777" style="paint-order:stroke fill markers"/>
+  </g>
+  <g transform="matrix(1.5 0 0 1.5 175.48 -39.381)" stroke-width=".66667">
+   <circle transform="rotate(-30)" cx="-340.24" cy="-113.38" r="21.333" fill="#999" style="paint-order:normal"/>
+   <circle cx="-365.88" cy="75.545" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-335.27" cy="75.557" r="6" fill="#aaa" style="paint-order:stroke fill markers"/>
+   <circle cx="-358.56" cy="61.136" r="6" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-346.41" cy="74.051" r="5.6779" fill="#777" style="paint-order:stroke fill markers"/>
+   <circle cx="-357.08" cy="90.828" r="4" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-342.74" cy="56.291" r="4" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-348.98" cy="61.778" r="4.288" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-367.98" cy="67.276" r="3.5254" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-356.73" cy="73.658" r="3.983" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-338.63" cy="65.799" r="3.8304" fill="#ccc" style="paint-order:stroke fill markers"/>
+   <circle cx="-351.32" cy="86.991" r="5.3558" fill="#777" style="paint-order:stroke fill markers"/>
+   <circle cx="-362.02" cy="82.225" r="3.225" fill="#bbb" style="paint-order:stroke fill markers"/>
+   <circle cx="-345.92" cy="81.795" r="3.225" fill="#bbb" style="paint-order:stroke fill markers"/>
+  </g>
+  <g transform="rotate(-30 -920.51 688.02)">
+   <path d="m-121.98 400.69c-22.011 1e-5 -39.855 17.844-39.855 39.855 0 9.477 3.3136 18.178 8.8379 25.018l-1.8965 1.8965-0.0645-0.0645c-1.3616-1.3616-3.7572-1.2339-5.2852 0.37109l-7.5457 7.9259c4.237 2.7245 9.2786 5.7704 13.768 7.5564l4.7832-4.4765c1.618-1.5142 1.7327-3.9236 0.37109-5.2852l-0.0273-0.0273 1.8965-1.8965c6.8404 5.5238 15.541 8.8359 25.018 8.8359 22.011 1e-5 39.854-17.842 39.854-39.854 2e-6 -22.011-17.842-39.855-39.854-39.855zm0 11.855c15.464 1e-5 28 12.536 28 28 3e-6 15.464-12.536 28-28 28-15.464-1e-5 -28-12.536-28-28-1e-5 -15.464 12.536-28 28-28z" fill-opacity=".2" fill-rule="evenodd"/>
+   <g transform="rotate(30 -1483.4 -249.38)">
+    <g>
+     <path d="m23.03-296.7 1.8301-6.8301 8.1962 2.1962-1.8301 6.8301z" fill="#b0bdc6" fill-rule="evenodd"/>
+     <path transform="rotate(15)" d="m-54.635-292.67h8.6135c1.9256 0 3.4764 1.784 3.4758 4l-3e-3 10.992c-5.2098 1.6611-10.453 3.2555-15.265 3.5253l-0.29743-14.518c-0.04539-2.2155 1.5502-4 3.4758-4z" fill="#555" style="paint-order:normal"/>
+    </g>
+    <g transform="translate(8.3923 -9.4641)">
+     <path transform="rotate(-30 -1469.9 -228.99)" d="m-122.13 396c-22.011 1e-5 -39.855 17.844-39.855 39.855 0 22.011 17.844 39.854 39.855 39.854 22.011 1e-5 39.854-17.842 39.854-39.854 2e-6 -22.011-17.842-39.855-39.854-39.855zm0.10937 8a32 32 0 0 1 32 32 32 32 0 0 1 -32 32 32 32 0 0 1 -32 -32 32 32 0 0 1 32 -32z" fill="#dfe9ef" style="paint-order:normal"/>
+     <path d="m12.905-356.5c-15.305 8.8365-21.128 31.07-12.291 46.375 8.8366 15.305 30.486 20.485 45.791 11.649 15.305-8.8366 21.764-30.244 12.927-45.55-8.8366-15.305-31.122-21.31-46.427-12.474zm2.8122 5.1367c13.392-7.732 30.517-3.1435 38.249 10.249 7.732 13.392 3.1435 30.517-10.249 38.249-13.392 7.732-30.517 3.1435-38.249-10.249-7.732-13.392-3.1435-30.517 10.249-38.249z" fill="#b0bdc6" style="paint-order:normal"/>
+     <path d="m6.9322-318.58c3.4641-2 10.829-25.244 29.622-30.959-18.911-5.7922-34.795 10.851-29.622 30.959z" fill="#fff" fill-opacity=".56471" fill-rule="evenodd"/>
+     <circle transform="rotate(-30)" cx="189.29" cy="-268.43" r="28" fill="#fff" fill-opacity=".2" style="paint-order:normal"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -32,7 +32,6 @@ public class {{{className}}} extends SimpleOverpassQuestType
 	}
 
 	@Override public String getCommitMessage() { return "{{{commitMessage}}}"; }
-	//TODO: Create a custom icon for this quest
-	@Override public int getIcon() { return R.drawable.ic_quest_notes; }
+	@Override public int getIcon() { return R.drawable.{{{icon}}}; }
 	@Override public int getTitle(Map<String, String> tags) { return {{{question}}}; }
 }

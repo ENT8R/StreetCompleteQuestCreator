@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138.00002 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="wheelchair_shop" transform="translate(722 149)">
+  <path d="m-589-80c0 35.346-28.654 64-64 64-35.346 0-64-28.654-64-64 0-35.346 28.654-64 64-64 35.346 0 64 28.654 64 64" fill="#e9a76f" stroke-width=".2"/>
+  <g transform="matrix(.89312 .016499 -.016499 .89312 -63.634 2.931)" stroke-opacity=".2">
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-opacity=".2">
+    <path d="m-642.52-40.159a25.921 25.921 0 0 1 -26.2 10.386 25.921 25.921 0 0 1 -20.192 -19.662 25.921 25.921 0 0 1 9.687 -26.466" stroke-width="11.195" style="paint-order:normal"/>
+    <path d="m-624.84-41.076-14.232-27.611-23.836-3.9293c3.3766-7.6049 5.3153-20.853 5.3153-28.853" stroke-linejoin="round" stroke-width="13.434"/>
+    <path d="m-691.38-84.289c4.1549-12.998 14.478-17.058 33.79-17.181" stroke-linejoin="round" stroke-width="11.195"/>
+   </g>
+   <circle transform="rotate(-1.0583)" cx="-646.15" cy="-133.84" r="11.364" fill-opacity=".2" style="paint-order:normal"/>
+  </g>
+  <g transform="matrix(.89312 .016499 -.016499 .89312 -63.634 -1.0023)">
+   <g fill="none" stroke="#fff" stroke-linecap="round">
+    <path d="m-642.52-40.159a25.921 25.921 0 0 1 -26.2 10.386 25.921 25.921 0 0 1 -20.192 -19.662 25.921 25.921 0 0 1 9.687 -26.466" stroke-width="11.195" style="paint-order:normal"/>
+    <path d="m-624.84-41.076-14.232-27.611-23.836-3.9293c3.3766-7.6049 5.3153-20.853 5.3153-28.853" stroke-linejoin="round" stroke-width="13.434"/>
+    <path d="m-691.38-84.289c4.1549-12.998 14.478-17.058 33.79-17.181" stroke-linejoin="round" stroke-width="11.195"/>
+   </g>
+   <circle transform="rotate(-1.0583)" cx="-646.15" cy="-133.84" r="11.364" fill="#fff" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>

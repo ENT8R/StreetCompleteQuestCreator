@@ -44,3 +44,8 @@ main {
 .collapsible-body {
   border-bottom: none;
 }
+
+.image_picker_image {
+  height: 75px;
+  width: 75px;
+}

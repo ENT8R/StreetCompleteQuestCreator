@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138" height="138" version="1.1" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Tobias Zwick</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <path d="m133 69c0 35.346-28.654 64-64 64s-64-28.654-64-64 28.654-64 64-64 64 28.654 64 64" fill="#529add" stroke-width=".2"/>
+ <rect x="32.75" y="29" width="72" height="80" rx="8.472" ry="8.472" fill="none" stroke="#000" stroke-opacity=".2" stroke-width="8" style="paint-order:normal"/>
+ <rect x="32.875" y="25.111" width="72" height="80" rx="8.472" ry="8.472" fill="#495aad" stroke="#fff" stroke-opacity=".98995" stroke-width="8" style="paint-order:normal"/>
+ <g transform="translate(-1000.1 -220.78)" fill="none" stroke="#fff">
+  <g transform="matrix(.88994 0 0 .88994 1245.3 -74.174)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.8496">
+   <path d="m-216 424 8.3347-24.815h8"/>
+   <path d="m-196 424 5-21"/>
+   <path d="m-191 403 4.8737-0.01"/>
+   <path d="m-210 407 14 17h16l-11-17h-19"/>
+   <circle cx="-180.06" cy="424.06" r="11.077" style="paint-order:normal"/>
+   <circle cx="-216.16" cy="424.06" r="11.077" style="paint-order:normal"/>
+  </g>
+  <path d="m1047.7 282.5 21.296-21.296 21.296 21.296" stroke-linecap="square" stroke-width="5.9629"/>
+ </g>
+</svg>
