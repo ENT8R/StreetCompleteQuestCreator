@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>StreetComplete QuestCreator</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="css/iconfont/material-icons.css">
+  <link rel="stylesheet" href="css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/materialize-0.100.2.min.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/icon.png">
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-wrapper indigo">
+        <div class="hide-on-med-and-down">
+          <a class="center brand-logo">StreetComplete QuestCreator</a>
+        </div>
+        <div class="hide-on-large-only">
+          <a class="center brand-logo">QuestCreator</a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="row">
+      <div class="center">
+        <h4>Help</h4>
+        <!-- Inform the user about what needs to be done before creating a quest -->
+        <p class="">Before creating a new quest you should:<br> &bull; Read this
+          <a href="https://github.com/westnordost/StreetComplete/wiki/Adding-new-Quests-to-StreetComplete" target="_blank">guide</a> to know what is important for a new quest<br> &bull; Have a look at this
+          <a href="https://wiki.openstreetmap.org/wiki/StreetComplete/Quests" target="_blank">list</a> where all quests are listed
+        </p>
+        <p>If you need help, don't hesitate to contact me: <a href="mailto:info.ent8r@gmail.com">info.ent8r@gmail.com</a></p>
+      </div>
+
+      <!-- Show small instructions for every input which is possible -->
+
+      <!-- General options -->
+      <h4 class="center">General options</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-comment-question-outline"></i>Kind of the quest</div>
+          <div class="collapsible-body"><span>The kind of the quest can either be a simple Yes-No quest
+            where the user can only answer with Yes or No or a quest with images for each answer (used by the parking type quest).</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-exclamation"></i>Importance of the quest</div>
+          <div class="collapsible-body"><span>The importance of a quest specifies when the quest will be downloaded and displayed.
+            High values will be displayed and downloaded earlier, low values later.</span></div>
+        </li>
+      </ul>
+
+      <!-- The Yes-No Quest -->
+      <h4 class="center">The Yes-NoQuest</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-folder"></i>Directory</div>
+          <div class="collapsible-body"><span>A short, descriptive name for the quest you want to implement.
+            Should be lowercase, contain no numbers and underscores instead of spaces.<br><br>
+            e.g. "<code>building_levels</code>" or "<code>fire_hydrant</code>"</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-help"></i>Question</div>
+          <div class="collapsible-body"><span>The question which should be asked to the user.<br><br>
+            e.g. "What is the speed limit sign for this street?"</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-magnify"></i>Overpass query</div>
+          <div class="collapsible-body"><span>Probably the most complex part: the
+            <a href="http://overpass-api.de/" target="_blank">overpass</a>
+            query. This specifies which kind of objects should be found and displayed to the user. If you need help you can ask on
+            <a href="https://github.com/westnordost/StreetComplete/issues/" target="_blank">Github</a> or have a look at the
+            <a href="https://wiki.openstreetmap.org/wiki/Overpass_API" target="_blank">wiki</a>
+            page where you can learn how to write overpass queries.<br><br>
+            e.g. "<code>nodes with highway=crossing and !crossing</code>"
+          </span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-tag"></i>OSM tag which should be modified</div>
+          <div class="collapsible-body"><span>A specific key which is used by the OpenStreetMap and other projects to identify an object.<br><br>
+          e.g. "<code>amenity</code>", "<code>lit</code>" or "<code>building</code>"</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-message"></i>Commit message</div>
+          <div class="collapsible-body"><span>The commit message which describes the changes which were made.<br><br>
+          e.g. "<code>Add housenumbers</code>" or "<code>Add speed limits</code>"</span></div>
+        </li>
+      </ul>
+
+      <!-- Optional answers for the Yes-No-Quest -->
+      <h4 class="center">Optional answers for the Yes-No-Quest</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-check"></i>OSM value for the answer "Yes"</div>
+          <div class="collapsible-body"><span>The OSM value which should be set for the answer "Yes".
+            By default this is "<code>yes</code>".</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-close"></i>OSM value for the answer "No"</div>
+          <div class="collapsible-body"><span>The OSM value which should be set for the answer "No".
+            By default this is "<code>no</code>".</span></div>
+        </li>
+      </ul>
+
+      <!-- Options for an image quest answer possibility -->
+      <h4 class="center">The image quest</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-key"></i>OSM value for the answer</div>
+          <div class="collapsible-body"><span>The OSM value which should be set for this answer.<br><br>
+          e.g. "<code>amenity</code>", "<code>lit</code>" or "<code>building</code>"</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-exclamation"></i>Answer</div>
+          <div class="collapsible-body"><span>An answer for the question. It is only required if you think that it will help the user
+            to find the correct answer. (If the image is not very self-descriptive)</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-image"></i>The image</div>
+          <div class="collapsible-body"><span>The image which helps the user to find an answer.
+            The image has to be quadratic and must have a resolution higher than <code>384*384</code>.
+            And it is also very important that the image has a fitting license (<code>CC0</code>, <code>CC-BY-SA</code>).
+          You can find good images at the <a href="https://wiki.openstreetmap.org/wiki/Main_Page" target="_blank">wiki of OSM</a>,
+          <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">wikipedia</a> or
+          <a href="https://pixabay.com/" target="_blank">pixabay</a></span></div>
+        </li>
+      </ul>
+
+      <!-- Optional answers for the image quest -->
+      <h4 class="center">Optional answers for the image quest</h4>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-image"></i>Images per row</div>
+          <div class="collapsible-body"><span>Determines how much images should be displayed in a row. By default is this 4.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-format-list-numbers"></i>Initially shown answers</div>
+          <div class="collapsible-body"><span>The number of initially shown items determines how many images
+            should be displayed at the first view. By default are all images displayed at once.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi mdi-plus"></i>Other answer</div>
+          <div class="collapsible-body"><span>With this option you can specify other answers which are not directly visible at the first view.
+            But after clicking on "Other answer" the user can select this answer.</span></div>
+        </li>
+      </ul>
+
+    </div>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/jquery/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize/materialize-0.100.2.min.js"></script>
+
+</body>
+
+</html>
