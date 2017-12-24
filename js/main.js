@@ -53,6 +53,10 @@ $(document).ready(function() {
   $('#type').material_select();
   $('#importance').material_select();
 
+  $('.modal').modal({
+    dismissible: false
+  });
+
   $('select').css({
     display: 'block',
     height: 0,
@@ -72,6 +76,7 @@ $(document).ready(function() {
       generateFiles();
     }
   });
+  Helper.setListeners();
 });
 
 //Generate all files and zip them
@@ -91,7 +96,7 @@ function generateFiles() {
 
   //Required values
   let importance = $('#importance').val();
-  let directory = $('#directory').val();
+  let directory = Helper.correctDirectory($('#directory').val());
   let className = Helper.getClassNameFromDirectory(directory);
   let overpassQuery = $('#overpass').val();
   let osmTag = $('#osm-tag').val();

@@ -56,24 +56,15 @@ const Helper = (function() {
           if (typeof callback == 'function') callback(xhr.responseText);
         }
       };
-      xhr.open("GET", url, true);
+      xhr.open('GET', url, true);
       xhr.send();
     },
     //Load partials into html for better maintainability
     loadPartials: function() {
-      //Load all modals
-      Helper.get('partials/modals.html', function(data) {
-        $('#modals').html(data);
-        $('.modal').modal({
-          dismissible: false
-        });
-        //Set listeners after all modals are loaded, because listsners include some modal events
-        Helper.setListeners();
-      });
       //Load the icon select
       Helper.get('partials/iconselect.html', function(data) {
         $('#image-picker-wrapper').html(data);
-        $("#image-picker").imagepicker();
+        $('#image-picker').imagepicker();
       });
     },
     //Set all jQuery listeners
@@ -135,6 +126,10 @@ const Helper = (function() {
       $('#image-select').change(function() {
         Helper.processImage(this.files[0]);
       });
+    },
+    //Correct a malformed directory string
+    correctDirectory: function(directory) {
+      return directory.toLowerCase().replace(/ /g, '_').replace(/[0-9]/g, '');
     }
   }
 })();
