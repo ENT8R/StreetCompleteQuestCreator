@@ -49,7 +49,7 @@ Helper.get('https://raw.githubusercontent.com/westnordost/StreetComplete/master/
   stringValues = data;
 });
 
-Helper.get('https://cdn.rawgit.com/westnordost/StreetComplete/bf6957a6/app/src/main/java/de/westnordost/streetcomplete/quests/QuestModule.java', function(questModule) {
+Helper.get('https://cdn.rawgit.com/westnordost/StreetComplete/550e45e/app/src/main/java/de/westnordost/streetcomplete/quests/QuestModule.java', function(questModule) {
   Helper.get('https://rawgit.com/westnordost/StreetComplete/master/app/src/main/java/de/westnordost/streetcomplete/quests/QuestModule.java', function(githubQuestModule) {
     //Check if there are changes in the QuestModule.java and if yes notify the user
     if (questModule != githubQuestModule) {
