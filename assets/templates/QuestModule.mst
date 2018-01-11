@@ -57,35 +57,37 @@ public class QuestModule
 				osmNoteQuestType,{{#importance_1}}
 				new {{{className}}}(o),{{/importance_1}}
 
-				// ↓ 2. definitely shown as errors in QA tools{{#importance_2}}
+				// ↓ 2. important data that is used by many data consumers
+				new AddRoadName(o, roadNameSuggestionsDao, putRoadNameSuggestionsHandler),
+				new AddHousenumber(o),{{#importance_2}}
 				new {{{className}}}(o),{{/importance_2}}
-
-				// ↓ 3. may be shown as missing in QA tools
-				new AddRoadName(o, roadNameSuggestionsDao, putRoadNameSuggestionsHandler),{{#importance_3}}
-				new {{{className}}}(o),{{/importance_3}}
-
-				// ↓ 4. may be shown as possibly missing in QA tools
-				new AddHousenumber(o),
 				// new AddPlaceName(o), doesn't make sense as long as the app cannot tell the generic name of elements
+
+				// ↓ 3. useful data that is used by some data consumers
 				new AddRecyclingType(o),
-				new AddCycleway(o),{{#importance_4}}
-				new {{{className}}}(o),{{/importance_4}}
-				// ↓ 5. important data that is used by many data consumers
 				new AddRoadSurface(o),
 				new AddMaxSpeed(o), // should best be after road surface because it excludes unpaved roads
-				new AddOpeningHours(o),{{#importance_5}}
-				new {{{className}}}(o),{{/importance_5}}
-
-				// ↓ 6. useful data that is used by some data consumers
+				new AddOpeningHours(o),
 				new AddSport(o),
 				new AddBikeParkingCapacity(o), // cycle map layer on osm.org
 				new AddOrchardProduce(o),
+				new AddCycleway(o),
 				new AddCrossingType(o),
 				new AddBuildingLevels(o),
 				new AddBusStopShelter(o), // at least OsmAnd
 				new AddVegetarian(o),
-				new AddVegan(o),{{#importance_6}}
+				new AddVegan(o),{{#importance_3}}
+				new {{{className}}}(o),{{/importance_3}}
+
+				// ↓ 4. definitely shown as errors in QA tools{{#importance_4}}
+				new {{{className}}}(o),{{/importance_4}}
+
+				// ↓ 5. may be shown as missing in QA tools{{#importance_5}}
+				new {{{className}}}(o),{{/importance_5}}
+
+				// ↓ 6. may be shown as possibly missing in QA tools{{#importance_6}}
 				new {{{className}}}(o),{{/importance_6}}
+
 				// ↓ 7. data useful for only a specific use case
 				new AddRoofShape(o),
 				new AddWheelChairAccessPublicTransport(o),
