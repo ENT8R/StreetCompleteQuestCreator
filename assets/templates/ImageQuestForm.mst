@@ -9,9 +9,9 @@ import de.westnordost.streetcomplete.quests.ImageListQuestAnswerFragment;
 
 public class {{{className}}}Form extends ImageListQuestAnswerFragment
 {
-    private final OsmItem[] TYPES = new OsmItem[] {
+    private final Item[] TYPES = new Item[] {
             {{#osmItem}}
-            new OsmItem("{{{osmValue}}}", {{{image}}}{{#string}}, {{{string}}}{{/string}}),
+            new Item("{{{osmValue}}}", {{{image}}}{{#string}}, {{{string}}}{{/string}}),
             {{/osmItem}}
     };
     {{#otherAnswers}}
@@ -38,7 +38,7 @@ public class {{{className}}}Form extends ImageListQuestAnswerFragment
   		applyImmediateAnswer(answer);
   	}
     {{/otherAnswers}}
-    @Override protected OsmItem[] getItems() { return TYPES; }
+    @Override protected Item[] getItems() { return TYPES; }
     {{#itemsPerRow}}
     @Override protected int getItemsPerRow() { return {{{itemsPerRow}}}; }
     {{/itemsPerRow}}
