@@ -26,6 +26,8 @@ import de.westnordost.streetcomplete.quests.parking_type.AddParkingType;
 import de.westnordost.streetcomplete.quests.powerpoles_material.AddPowerPolesMaterial;
 import de.westnordost.streetcomplete.quests.orchard_produce.AddOrchardProduce;
 import de.westnordost.streetcomplete.quests.recycling.AddRecyclingType;
+import de.westnordost.streetcomplete.quests.religion.AddReligionToPlaceOfWorship;
+import de.westnordost.streetcomplete.quests.religion.AddReligionToWaysideShrine;
 import de.westnordost.streetcomplete.quests.road_name.data.PutRoadNameSuggestionsHandler;
 import de.westnordost.streetcomplete.quests.road_name.data.RoadNameSuggestionsDao;
 import de.westnordost.streetcomplete.quests.tactile_paving.AddTactilePavingBusStop;
@@ -59,6 +61,7 @@ public class QuestModule
 				new {{{className}}}(o),{{/importance_1}}
 
 				// ↓ 2. important data that is used by many data consumers
+				new AddReligionToPlaceOfWorship(o),
 				new AddRoadName(o, roadNameSuggestionsDao, putRoadNameSuggestionsHandler),
 				new AddHousenumber(o),{{#importance_2}}
 				new {{{className}}}(o),{{/importance_2}}
@@ -98,7 +101,8 @@ public class QuestModule
 				new AddWayLit(o),
 				new AddWheelchairAccessBusiness(o),
 				new AddToiletAvailability(o),
-				new AddWheelChairAccessToilets(o),{{#importance_7}}
+				new AddWheelChairAccessToilets(o),
+				new AddReligionToWaysideShrine(o),{{#importance_7}}
 				new {{{className}}}(o),{{/importance_7}}
 
 				// ↓ 8. defined in the wiki, but not really used by anyone yet. Just collected for
