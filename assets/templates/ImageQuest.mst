@@ -42,5 +42,5 @@ public class {{{className}}} extends SimpleOverpassQuestType
 
     @Override public String getCommitMessage() { return "{{{commitMessage}}}"; }
     @Override public int getIcon() { return R.drawable.{{{icon}}}; }
-    @Override public int getTitle(Map<String, String> tags) { return {{{question}}}; }
+    @Override public int getTitle(@NonNull Map<String, String> tags) { return {{{question}}}; }
 }
