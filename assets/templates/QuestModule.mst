@@ -14,6 +14,7 @@ import de.westnordost.streetcomplete.quests.baby_changing_table.AddBabyChangingT
 import de.westnordost.streetcomplete.quests.bike_parking_capacity.AddBikeParkingCapacity;
 import de.westnordost.streetcomplete.quests.bike_parking_cover.AddBikeParkingCover;
 import de.westnordost.streetcomplete.quests.bikeway.AddCycleway;
+import de.westnordost.streetcomplete.quests.bridge_structure.AddBridgeStructure;
 import de.westnordost.streetcomplete.quests.building_levels.AddBuildingLevels;
 import de.westnordost.streetcomplete.quests.bus_stop_shelter.AddBusStopShelter;
 import de.westnordost.streetcomplete.quests.car_wash_type.AddCarWashType;
@@ -22,6 +23,8 @@ import de.westnordost.streetcomplete.quests.diet_type.AddVegan;
 import de.westnordost.streetcomplete.quests.diet_type.AddVegetarian;
 import de.westnordost.streetcomplete.quests.fire_hydrant.AddFireHydrantType;
 import de.westnordost.streetcomplete.quests.internet_access.AddInternetAccess;
+import de.westnordost.streetcomplete.quests.parking_access.AddParkingAccess;
+import de.westnordost.streetcomplete.quests.parking_fee.AddParkingFee;
 import de.westnordost.streetcomplete.quests.parking_type.AddParkingType;
 import de.westnordost.streetcomplete.quests.powerpoles_material.AddPowerPolesMaterial;
 import de.westnordost.streetcomplete.quests.orchard_produce.AddOrchardProduce;
@@ -45,6 +48,7 @@ import de.westnordost.streetcomplete.quests.way_lit.AddWayLit;
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelChairAccessPublicTransport;
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelChairAccessToilets;
 import de.westnordost.streetcomplete.quests.wheelchair_access.AddWheelchairAccessBusiness;
+import de.westnordost.streetcomplete.quests.bench_backrest.AddBenchBackrest;
 import de.westnordost.streetcomplete.quests.{{{directory}}}.{{{className}}};
 
 @Module
@@ -61,7 +65,6 @@ public class QuestModule
 				new {{{className}}}(o),{{/importance_1}}
 
 				// ↓ 2. important data that is used by many data consumers
-				new AddReligionToPlaceOfWorship(o),
 				new AddRoadName(o, roadNameSuggestionsDao, putRoadNameSuggestionsHandler),
 				new AddHousenumber(o),{{#importance_2}}
 				new {{{className}}}(o),{{/importance_2}}
@@ -71,6 +74,7 @@ public class QuestModule
 				new AddRecyclingType(o),
 				new AddRoadSurface(o),
 				new AddMaxSpeed(o), // should best be after road surface because it excludes unpaved roads
+				new AddReligionToPlaceOfWorship(o), // icon on maps are different
 				new AddOpeningHours(o),
 				new AddSport(o),
 				new AddBikeParkingCapacity(o), // cycle map layer on osm.org
@@ -81,7 +85,9 @@ public class QuestModule
 				new AddBusStopShelter(o), // at least OsmAnd
 				new AddVegetarian(o),
 				new AddVegan(o),
-				new AddInternetAccess(o),{{#importance_3}}
+				new AddInternetAccess(o),
+				new AddParkingAccess(o),
+				new AddParkingFee(o),{{#importance_3}}
 				new {{{className}}}(o),{{/importance_3}}
 
 				// ↓ 4. definitely shown as errors in QA tools{{#importance_4}}
@@ -101,6 +107,7 @@ public class QuestModule
 				new AddWayLit(o),
 				new AddWheelchairAccessBusiness(o),
 				new AddToiletAvailability(o),
+				new AddBridgeStructure(o),
 				new AddWheelChairAccessToilets(o),
 				new AddReligionToWaysideShrine(o),{{#importance_7}}
 				new {{{className}}}(o),{{/importance_7}}
@@ -113,7 +120,8 @@ public class QuestModule
 				new AddFireHydrantType(o),
 				new AddParkingType(o),
 				new AddPowerPolesMaterial(o),
-				new AddCarWashType(o),{{#importance_8}}
+				new AddCarWashType(o),
+				new AddBenchBackrest(o),{{#importance_8}}
 				new {{{className}}}(o),{{/importance_8}}
 		};
 

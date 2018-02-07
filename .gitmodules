@@ -1,0 +1,3 @@
+[submodule "streetcomplete-quest-svgs"]
+	path = assets/streetcomplete-quest-svgs
+	url = https://github.com/rugk/streetcomplete-quest-svgs.git

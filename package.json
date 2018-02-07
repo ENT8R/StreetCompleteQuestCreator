@@ -5,7 +5,8 @@
   "description": "An interface for creating new quests for the android application StreetComplete",
   "main": "index.html",
   "scripts": {
-    "start": "python -m SimpleHTTPServer"
+    "start": "python -m SimpleHTTPServer",
+    "update": "git submodule update --remote"
   },
   "repository": {
     "type": "git",
