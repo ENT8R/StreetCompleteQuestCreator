@@ -1,3 +1,7 @@
+# WARNING:
+
+This project is not developed anymore. It just creates too much work rather than saving time in the new quest implementing process. For a little bit longer explanation see: [PR #1005 of StreetComplete](https://github.com/westnordost/StreetComplete/pull/1005#discussion_r181548725)
+
 # StreetComplete QuestCreator
 
 The StreetComplete QuestCreator is a tool for creating new quests for the android application [StreetComplete](https://github.com/westnordost/StreetComplete/)
